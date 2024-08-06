@@ -1,0 +1,27 @@
+# Ignore Rust build files
+/target/
+/debug/
+/release/
+
+# Ignore Cargo package manager files
+**/Cargo.lock
+
+# Ignore IDE and editor configuration files
+/.idea/
+/.vscode/
+/*.sublime-workspace
+/*.sublime-project
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
