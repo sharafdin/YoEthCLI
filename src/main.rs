@@ -17,11 +17,11 @@ async fn main() -> Result<(), Box<dyn Error>> {
         "💳 Check Your Wallet Balance",
         "🔍 Explore Recent Transactions",
         "🔑 Retrieve Wallet Address Using Private Key",
-        "🚪 Exit YoEthCLI",
+        "🚪 Exit ethereumCLI",
     ];
 
     let selection = Select::with_theme(&ColorfulTheme::default())
-        .with_prompt("Welcome to YoEthCLI! What do you want to do?")
+        .with_prompt("Welcome to ethereumCLI! What do you want to do?")
         .items(&actions)
         .default(0)
         .interact()?;
