@@ -1,6 +1,6 @@
-# YoEthCLI
+# ethereumCLI
 
-YoEthCLI is a professional and secure command-line Ethereum wallet built for developers and enthusiasts. It allows users to interact with the Ethereum blockchain for sending ETH, checking balances, generating wallets, and exploring transactions – all with transparency and security in mind.
+ethereumCLI is a professional and secure command-line Ethereum wallet built for developers and enthusiasts. It allows users to interact with the Ethereum blockchain for sending ETH, checking balances, generating wallets, and exploring transactions – all with transparency and security in mind.
 
 ---
 
@@ -15,11 +15,11 @@ YoEthCLI is a professional and secure command-line Ethereum wallet built for dev
 
 ---
 
-## 🔍 Why YoEthCLI?
+## 🔍 Why ethereumCLI?
 
-The principle of cryptocurrency is **"Don't trust, verify"**. With YoEthCLI, you get complete transparency:
+The principle of cryptocurrency is **"Don't trust, verify"**. With ethereumCLI, you get complete transparency:
 - The code is open-source, allowing you to inspect every function.
-- **YoEthCLI does not store or share your private key** – you are in complete control.
+- **ethereumCLI does not store or share your private key** – you are in complete control.
 
 💡 **Tip**: Always verify the code and the tool you’re using. Never blindly trust anyone in the crypto space, including me. 
 
@@ -38,7 +38,7 @@ The principle of cryptocurrency is **"Don't trust, verify"**. With YoEthCLI, you
 
 ## 📄 Configuration
 
-To run **YoEthCLI**, you need to configure some environment variables. A sample `.env-example` file is provided to help you get started.
+To run **ethereumCLI**, you need to configure some environment variables. A sample `.env-example` file is provided to help you get started.
 
 ### Steps to Configure:
 1. Locate the `.env-example` file in the project directory.
@@ -66,13 +66,13 @@ INFURA_API_KEY=your_infura_api_key_here
 ## 🔧 Usage
 
 ### 1. Build the CLI
-To compile the YoEthCLI wallet:
+To compile the ethereumCLI wallet:
 ```bash
 cargo build --release
 ```
 
 ### 2. Run the CLI
-To start YoEthCLI:
+To start ethereumCLI:
 ```bash
 cargo run
 ```
@@ -81,7 +81,7 @@ cargo run
 
 ## 💻 Actions
 
-When you run YoEthCLI, you’ll see the following menu options:
+When you run ethereumCLI, you’ll see the following menu options:
 
 1. **💰 Generate a New Crypto Wallet**  
    Create a new wallet and securely store your private key and wallet address.
@@ -98,7 +98,7 @@ When you run YoEthCLI, you’ll see the following menu options:
 5. **🔑 Retrieve Wallet Address Using Private Key**  
    Get your wallet address by providing a valid private key.
 
-6. **🚪 Exit YoEthCLI**  
+6. **🚪 Exit ethereumCLI**  
    Safely exit the program.
 
 ---
